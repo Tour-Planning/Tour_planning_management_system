@@ -1,0 +1,4 @@
+import { Link } from 'react-router-dom'
+export default function Register() {
+  return <section className="page-container flex justify-center py-12"><div className="panel w-full max-w-md p-7"><h1 className="text-2xl font-bold">Create your account</h1><p className="mt-1 text-sm text-slate-500">Customer registration form will be implemented here.</p><div className="mt-6 space-y-3"><input className="input" placeholder="Full name" /><input className="input" type="email" placeholder="Email address" /><input className="input" type="password" placeholder="Password" /></div><button className="btn-primary mt-5 w-full" type="button">Register (UI only)</button><p className="mt-5 text-center text-sm text-slate-500">Already registered? <Link className="font-semibold text-blue-700" to="/login">Sign in</Link></p></div></section>
+}
